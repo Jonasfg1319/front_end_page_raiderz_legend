@@ -103,18 +103,20 @@ li a:hover{
      header nav{
      	
      	border-bottom: 1px solid gray;
+     	width: 400px;
 
      }
 
      #imagem-download{ 
 	height: 500px;
-	width: 400px;
+	
 	font-weight: bold;
 	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=500);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
 	background-position: center;
+    border: 2px solid red;
 }
 
 #principal{
@@ -185,12 +187,13 @@ li a:hover{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	
 }
 
 #screen-img{
-	width: 400px;
+	width: 190px;
 	padding-bottom: 10px;
-    
+	
 }
 
 }
