@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>RaiderZ Legends | Registros</title>
+
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+  </head>
+
+  <body class="bg-dark register">
+    <header> <!-- Topo com barra de navegação -->
+         <nav class=" navbar navbar-expand-lg navbar-dark bg-dark bg-dark text-light fixed-top" >
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#target">
+              <span class="text-light bg-dark navbar-toggler-icon"></span>
+          </button>
+              <div class="collapse navbar-collapse" id="target">
+                <ul class="navbar-nav">
+                  <li class="nav-item ml-5">
+                    <a href="Index.html" class="nav-link">
+                      <span class="fas fa-home"></span>
+                       HOME
+                    </a>
+                  </li>
+                  <li class="nav-item ml-5">
+                    <a href="Register.html" class="nav-link">
+                      <span class="fas fa-home"></span>
+                       REGISTER
+                    </a>
+                  </li>
+                  <li class="nav-item ml-5">
+                    <a href="" class="nav-link">
+                      <span class="fas fa-home"></span>
+                       DOWNLOADS
+                    </a>
+                  </li>
+                  <li class="nav-item ml-5">
+                    <a href="Rankings.html" class="nav-link">
+                      <span class="fas fa-trophy"></span>
+                       RANKINGS
+                    </a>
+                  </li>
+                  <li class="nav-item ml-5">
+                    <a href="" class="nav-link">
+                      <span class="fas fa-file"></span>
+                       ABOUT
+                    </a>
+                  </li>
+                  <li class="nav-item ml-5">
+                    <a href="" class="nav-link">
+                      <span class="fas fa-file"></span>
+                       CONTACT
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse ml-auto" id="target">
+                <ul class="navbar-nav ">
+                  <li class="nav-item ml-5">
+                    <a href="" class="nav-link">
+                      <span class="fas fa-sign-in-alt">
+                        Sign-In
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+    </header><!-- Fim do topo -->
+     <div id="imagem-download-register"><!-- Aquela parte onde fica o nome do site grande e o botao de download -->
+         <div id="principal" class="container">
+             <h1 class="display-4">
+                 RaiderZ Legend
+             </h1>
+            
+         </div>
+     </div><!-- Fim da parte de imagem e download -->
+    <div class="bg-dark text-light">
+        <nav class="navbar bg-dark" id="espacamento">
+            
+        </nav>
+        <div id="elementos" class="container mt-5">
+            <div id="esquerda">
+            <div id="midias" class="card bg-dark"> <!-- Formulario para registro -->
+                <div id="topo-cartao" class="card-header pb-5" style="background-color: #333333;border-bottom: 1px solid gray;font-size: 23px">
+                    <span class="fas fa-newspaper"></span>
+                    <span class="">
+                        Register an on Account to play
+                    </span>
+                     
+                </div>
+                <div class="card-body" style="background-color: #292b2c">
+                    <form id="form" class="form-group" method="post" action="painel.html">
+                      <div class="float-left">
+                        <label>Real name or Nickname:</label>
+                        <input class="form-control" type="text" name="nome" placeholder="Your name or surname, 4 to 15 letters">
+
+                        <label>Password:</label>
+                        <input class="form-control" type="password" name="senha" placeholder="password to acess the game and the site">
+
+                        <label>E-Mail:</label>
+                        <input class="form-control" type="email" name="email" placeholder="Contact to email adress">
+                      </div>
+                      <div class="float-right">
+                         <label>User login:</label>
+                        <input class="form-control" type="text" name="nome" placeholder="User login to acess the game and the site">
+
+                        <label>Repeat the password:</label>
+                        <input class="form-control" type="password" name="senha" placeholder="Confirm the same password entered">
+
+                        <label>Repeat E-Mail:</label>
+                        <input class="form-control" type="email" name="email" placeholder="Confirm the same typed email">
+                      </div>
+                      <div class="pt-4 mb-3" style="clear: both;">
+                           <div class="text-primary" style="border-left: 3px solid ; padding: 20px;" >
+                        <cite>
+                      <span style=" font-size: 25px; margin-left: 10px; margin-right: 10px" class="fas fa-quote-left"></span>   
+                       <span style="font-size: 23px"> Enter a real E-Mail to be able to recover your Data</span>
+                    </cite>
+                   </div>
+                      </div>
+                      <div class="float-left">
+                        <label>Secret question:</label>
+                        <input class="form-control" type="text" name="questao_secreta" placeholder="Secret question to retrieve data">
+
+                        <label>Type the code:</label>
+                        <input class="form-control" type="text" name="codigo_digitado" placeholder="Enter the Security code here">
+                      </div>
+                      <div class="float-right">
+                        <label>Secret Response:</label>
+                        <input class="form-control" type="text" name="resposta_secreta" placeholder="Secret answer to recover data">
+
+                        <label>Code:</label>
+                         <div class="input-group" style="width:190px ;">
+                       <div class="input-group-prepend">
+                      <span class="input-group-text text-dark">2312312</span>
+           </div>
+           <input class="form-control" type="text" name="codigo">
+       </div> 
+                      </div>
+                      <div id="ch"  style="clear: both;">
+                        <input  type="checkbox" name="selecionar"><span>
+                          By registering you confirm, that you accept our Terms of Use
+                        </span> 
+                      </div>
+                      <button class="btn btn-outline-light mb-4" style="width: 100%" name="enviar">Create Account</button>
+                    </form>
+
+                </div>
+                
+
+                <!-- calma -->
+
+
+
+            </div>
+            <!-- vs -->
+       
+            
+
+        </div> <!--fim do container da esquerda -->
+
+          <aside> <!-- container da direita/lateral -->
+            <div id="botoes">
+                 <div class="mb-2">
+
+                     <button class="btn btn-outline-light p-2" style="width: 100%;">
+                         <span class="fas fa-sign-in-alt"></span>
+                     LOGIN</button>
+                 </div>
+                 <div class="mb-2">
+
+                     <button class="btn btn-outline-light p-2" style="width: 100%;">
+                         <span class="fas fa-discord"></span>
+                     DISCORD</button>
+                 </div>
+                 <div class="mb-2">
+
+                     <button class="btn btn-outline-light p-2" style="width: 100%;">
+                         <span class="fas fa-comment-alt"></span>
+                     NEED HELP?</button>
+                 </div>
+                 <div class="mb-2">
+
+                     <button class="btn btn-outline-light p-2" style="width: 100%;">
+                         <span class="fas fa-sign-in-alt"></span>
+                     TRADE MARKET</button>
+                 </div>
+                 <div class="mb-2">
+
+                     <button class="btn btn-outline-light p-2" style="width: 100%;">
+                         
+                     NOPING</button>
+                 </div>
+                 <div class="mb-2">
+
+                     <button class="btn btn-outline-light " style="width: 100%;">
+                         <div class="text-light " style="background-color: red; width: 80px; margin-left: 90px; font-size: 15px; font-weight: bold"><span class="fa-youtube"></span>
+                             Youtube 
+                         </div>
+                         
+                     </button>
+                 </div>
+                 
+            </div>
+             
+            <div id="usuarios-discord">
+                <div>
+                    <a href=""><button class="btn btn-primary" style="width: 100%">Join Server</button></a>
+                </div>
+                <div class="text-right mr-2">
+                    users online: <span>200</span>
+                </div>
+                <div class="card">
+                    <div class="card-header" style="background-color: #333333; font-weight: bold">
+                        Discord RaiderZ Legend
+                    </div>
+                    <div class="card-body" style="background-color: #292b2c">
+                     <span class="fas fa-user"></span>
+                            Usuarios Online
+                         <ul> 
+                             <li>Users #</li>
+                             <li>Users #</li>
+                             <li>Users #</li>
+                             <li>Users #</li>
+                             <li>Users #</li>
+                             <li>Users #</li>
+                             <li>Users #</li>
+                             <li>Users #</li>
+
+                         </ul>
+                         <button class="btn btn-primary" style="width: 100%; height: 30px"></button>
+
+                    </div>
+                </div>
+            </div>
+
+          </aside>
+
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center "><!-- rodape -->
+        <h4>
+            Share with your friends
+        </h4>
+        <div class="mt-5">
+            <span>
+               <a href=""> <button class="btn btn-light text-info" style="border-radius: 150px">
+                    <span class="fas fa-twitter"></span>
+                </button></a>
+            </span>
+            <span>
+
+                <a href=""><button class="btn btn-light text-primary" style="border-radius: 150px">
+                    <span class="fas fa-facebook"></span>
+                </button></a>
+            </span>
+            <span>
+                <a href=""><button class="btn btn-light text-danger" style="border-radius: 150px">
+                    <span class="fas fa-google"></span>
+                </button></a>
+            </span>
+        </div>
+        <div class="mt-5">
+            <h7>
+                © Copyright © 2018. RaiderZ Legend Inc, All Rights Reserved. Designed by @fabio.dvlegend
+            </h7>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

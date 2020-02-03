@@ -1,0 +1,734 @@
+/*Alterações padrões para todos os dispositivos*/
+#imagem-download{
+	
+	height: 630px;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=2000);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#principal{
+
+	text-align: center;
+	position: absolute;
+	top: 150px;
+
+	color: white;
+	opacity: 1;
+}
+
+
+
+
+#imagem-download-register{
+	
+	height: 430px;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=1400) no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+}
+
+#principal h1{
+	font-weight: bold;
+	color: white;
+	opacity: 1;
+}
+
+
+#elementos2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#botao-pesquisar{
+	border: none;
+	background: #333333;
+
+}
+
+#form input{
+	
+	background-color: #333333;
+	border: black;
+}
+
+table tbody tr td, table thead tr td{
+	border-right: 1px solid;
+	border-left: 1px solid;
+}
+
+table tbody tr:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+#ch input{
+	width: 10px;
+}
+
+li a{
+	color: white;
+}
+
+li a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+#target ul li a{
+	font-size: 15px;
+	color: white;
+}
+#target ul li a:hover{
+	font-size: 15px;
+	color: silver;
+}
+
+/*Fim das alterações padrões*/
+
+/*Para dispositivos com tela igual ou menor que 600px*/
+@media (max-width: 600px){
+  
+     header nav{
+     	
+     	border-bottom: 1px solid gray;
+
+     }
+
+     #imagem-download{ 
+	
+	height: 575px;
+	width: 400px;
+	
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=500);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#principal{
+
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	color: white;
+	opacity: 1;
+}
+
+#midias{
+	
+	width: 450px;
+	margin-bottom: 20px;
+	
+	
+}
+
+#imagem-download-register{
+	
+	height: 400px;
+	width: 400px;
+	font-weight: bold;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=500);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#form input{
+	width: 160px;
+	background-color: #333333;
+	border: black;
+}
+
+#ch{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+	
+}
+#ch input{
+
+  width: 10px;
+
+}
+
+#elementos2{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+
+#ranking{
+	
+    
+    margin-right: 10px;
+}
+
+
+
+
+#Screenshots{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#screen-img{
+	width: 400px;
+	padding-bottom: 10px;
+    
+}
+
+}
+/*Fim da parte para dispositivos com tela menor que 600px
+
+*/
+
+
+/*Para dispositivos com tela maior ou igual a 1150px*/
+@media(min-width: 1200px){
+
+header nav{
+      display: flex;
+      border-bottom: 1px solid silver;
+      height: 70px;
+}
+
+ul{
+	list-style: none;
+	padding: 20px;
+}
+#nav1{
+	
+	width: 900px;
+}
+
+#sign-in{
+	
+	margin-right: 65px;
+}
+
+header nav ul li a{
+
+   color: white;
+   font-size: 12px;
+   font-weight: bold;
+   padding: 20px;
+  
+}
+
+header nav ul li a:hover{
+  
+    color: silver;
+    text-decoration: none;
+    border-left: 0.5px solid silver;
+    border-right: 0.5px solid silver;
+ 
+}
+
+#imagem-download{
+	
+	height: 630px;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=2000);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#imagem-download-register{
+	
+	height: 430px;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=1400) no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+
+#form input{
+	width: 320px;
+	background-color: #333333;
+	border: black;
+}
+
+#ch{
+	padding-top: 15px;
+	padding-bottom: 30px;
+	
+}
+#ch input{
+
+  width: 10px;
+
+}
+
+
+#principal{
+
+	text-align: center;
+	position: absolute;
+	top: 200px;
+	right: 90px;
+	padding: 20px;
+	color: white;
+	opacity: 1;
+}
+
+
+
+
+
+
+#busca-botoes{
+	
+	
+    margin-right: 10px;
+}
+#botao-pesquisar{
+	border: none;
+	background: #333333;
+
+}
+
+#ranking{
+	
+    
+}
+
+#elementos{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#midias{
+	
+	width: 820px;
+	margin-bottom: 20px;
+	
+}
+
+#patch-list {
+	padding-top: 3px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid gray;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+
+
+}
+
+#patch-list a{
+	text-decoration: none;
+	color: white;
+}
+
+#Screenshots{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#screen-img{
+	border: 1px solid silver;
+    
+}
+#videos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#videos div a{
+	color: white;
+	text-decoration: none;
+}
+
+#botoes{
+	
+	margin-left: 20px;
+	width: 300px;
+}
+
+#usuarios-discord{
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  margin-left: 20px;
+
+}
+
+footer{
+	margin-top: 150px;
+	padding: 20px;
+}
+
+}
+
+/*Fim dos dispositivos com tela maior ou igual 1150px*/
+
+
+/*Dispositivos com telas com tamanho */
+
+@media (min-width: 700px) and (max-width: 900px){
+  
+     header nav{
+     	
+     	border-bottom: 1px solid gray;
+
+     }
+
+     #imagem-download{
+	
+	height: 575px;
+	width: 500px;
+	
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=500);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+#imagem-download-register{
+	
+	height: 400px;
+	width: 400px;
+	font-weight: bold;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=500);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#form input{
+	width: 160px;
+	background-color: #333333;
+	border: black;
+}
+
+
+
+#ch{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+	
+}
+#ch input{
+
+  min-width: 7px;
+  max-width: 12px;
+
+}
+
+#principal{
+
+	text-align: center;
+	position: absolute;
+	top: 170px;
+	right: 30px;
+	color: white;
+	opacity: 1;
+}
+
+#elementos2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+#botao-pesquisar{
+	border: none;
+	background: #333333;
+
+}
+
+#Screenshots{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#screen-img{
+	width: 400px;
+	padding-bottom: 10px;
+    
+}
+  }
+
+
+
+@media (min-width: 600px) and (max-width: 700px){
+  
+     header nav{
+     	
+     	border-bottom: 1px solid gray;
+
+     }
+
+     
+
+     #imagem-download{
+	
+	height: 575px;
+	width: 500px;
+	
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=500);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#imagem-download-register{
+	
+	height: 400px;
+	width: 400px;
+	font-weight: bold;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=500);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#form input{
+	width: 220px;
+	background-color: #333333;
+	border: black;
+}
+
+#ch{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+	
+}
+#ch input{
+
+  width: 10px;
+
+}
+
+#principal{
+
+	text-align: center;
+	position: absolute;
+	top: 170px;
+	right: 30px;
+	color: white;
+	opacity: 1;
+}
+
+#elementos2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+#Screenshots{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#screen-img{
+	width: 400px;
+	padding-bottom: 10px;
+    
+}
+  }
+
+  @media (min-width: 900px) and (max-width: 1150px){
+
+
+         header nav{
+     	
+     	height: 80px;
+     	border-bottom: 1px solid gray;
+     	padding: 20px;
+
+     }
+     header nav ul{
+        float: left;
+     
+     	
+     	margin-top: -20px;
+     }
+     
+
+     #imagem-download{
+	
+	height: 575px;
+	width: 500px;
+	
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=500);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#imagem-download-register{
+	
+	height: 400px;
+	width: 400px;
+	font-weight: bold;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=500);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#form input{
+	width: 320px;
+	background-color: #333333;
+	border: black;
+}
+
+#ch{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+	
+}
+#ch input{
+
+  width: 5px;
+
+}
+
+#principal{
+
+	text-align: center;
+	position: absolute;
+	top: 170px;
+	right: 60px;
+	color: white;
+	opacity: 1;
+
+}
+
+#elementos2{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#Screenshots{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#screen-img{
+	width: 400px;
+	padding-bottom: 10px;
+    
+}
+
+
+  }
+
+  @media(max-width: 1200)
+  {
+  	#elementos{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#imagem-download{
+	
+	height: 630px;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=2000);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#imagem-download-register{
+	
+	height: 630px;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=1400) no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#principal{
+
+	text-align: center;
+	position: absolute;
+	top: 170px;
+	right: 30px;
+	color: white;
+	opacity: 1;
+}
+
+  } 
+
+   @media(min-width: 768) and (max-width: 1200)
+  {
+  	#elementos{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#imagem-download{
+	
+	height: 630px;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=2000);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	background-position: center;
+}
+
+#imagem-download-register{
+	
+	height: 630px;
+	background: url(https://images.unsplash.com/photo-1579807851425-41def76a2f47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=630&ixlib=rb-1.2.1&q=80&w=1400) no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#principal{
+
+	text-align: center;
+	position: absolute;
+	top: 170px;
+	right: 30px;
+	color: white;
+	opacity: 1;
+}
+
+  } 
