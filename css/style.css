@@ -119,7 +119,7 @@ li a:hover{
 }
 
 #principal{
-
+    border: 2px solid red;
 	text-align: center;
 	position: absolute;
 	top: 150px;
