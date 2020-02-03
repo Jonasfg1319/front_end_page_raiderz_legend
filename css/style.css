@@ -147,9 +147,13 @@ li a:hover{
 	width: 100%;
 	background-position: center;
 }
+#form{
+	display: flex;
+	flex-direction: column;
+}
 
 #form input{
-	width: 160px;
+	width: 250px;
 	background-color: #333333;
 	border: black;
 }
