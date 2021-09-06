@@ -2,5 +2,5 @@
 
 Front end da página raiderz legend usando html, css/bootstrap e javasscript
 
-Baixe o projeto e abra o arquivo index.html no seu navegador para visualizar a página
+Baixe o projeto, extraia e abra o arquivo index.html no seu navegador para visualizar a página
 
